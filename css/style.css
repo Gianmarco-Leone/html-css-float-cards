@@ -10,10 +10,6 @@ img {
     max-width: 100%;
 }
 
-ul, ol {
-    list-style: none;
-}
-
 /* Utils */
 
 .container {
@@ -47,40 +43,47 @@ body {
 
 /* Central main */
 
+.row {
+    margin: 0 -2rem;
+}
+
 .column {
     width: calc(100% / 3);
     float: left;
+    padding: 2rem;
 }
 
 .column img {
-    height: 100px;
+    width: 100px;
     float: left;
 }
 
 .photo-description {
+    width: calc(100% - 100px);
     display: inline-block;
     background-color: #000;
     height: 100px;
 }
 
+.photo-description > *{
+    padding: 5px 40px 0 10px;
+}
+
 .photo-description h2 {
     color: #fff;
     font-size: 1rem;
-    padding: 5px 40px 0 10px;
     margin-top: 8px;
 } 
 
 .photo-description .work {
-    display: inline-block;
+    display: block;
     color: #fff;
-    padding: 5px 40px 0 10px;
     margin-bottom: 12px;
 }
 
 .photo-description a {
     text-decoration: none;
     color: #59CDFA;
-    padding: 5px 40px 0 10px;
 }
 
 
