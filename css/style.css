@@ -1,0 +1,83 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Utils */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Generics */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Header */
+
+.main-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-header > #main-title {
+    color: #E53170;
+    margin: 2rem 0;
+}
+
+/* Central main */
+
+.column img {
+    height: 100px;
+    float: left;
+}
+
+.column {
+    width: calc(100% / 3);
+    float: left;
+}
+
+.photo-description {
+    display: inline-block;
+    background-color: #000;
+    height: 100px;
+}
+
+.photo-description a {
+    text-decoration: none;
+    color: #59CDFA;
+    padding: 5px 10px;
+}
+
+.photo-description h2,small {
+    color: #fff;
+    padding: 5px 10px;
+} 
+
+
+
+
+
+
+
+
