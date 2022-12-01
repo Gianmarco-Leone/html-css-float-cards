@@ -1,0 +1,89 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utils */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Generics */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Header */
+
+.main-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-header  #main-title {
+    color: #E53170;
+    margin: 2rem 0;
+}
+
+/* Parte centrale */
+
+.row {
+    margin: 0 -2rem;
+}
+
+.column {
+    width: calc(100% / 3);
+    float: left;
+    padding: 2rem;
+}
+
+.box {
+    background-color: #000;
+    border: 4px solid #F9F9F9;
+}
+
+.column  img {
+    width: 100px;
+    float: left;
+}
+
+.column  .content {
+    float: left;
+}
+
+.name {
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 0 5px 10px;
+} 
+
+.work {
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 0 5px 10px;
+}
+
+.email {
+    display: block;
+    text-decoration: none;
+    color: #59CDFA;
+    padding: 5px 10px;
+}
+
